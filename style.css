@@ -11,7 +11,26 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fourteen-child
 */
-/*pshh*/
+body.category-black-ops-3 #primary, body.category-infinite-warfare #primary {
+  padding-top: 0;
+}
+
+body.category-black-ops-3 .archive-header, body.category-infinite-warfare .archive-header {
+  margin-left: 0;
+  margin-bottom: 0;
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body.category-black-ops-3 .archive-header .archive-header-image, body.category-infinite-warfare .archive-header .archive-header-image {
+  margin-top: 0;
+}
+
+body.category-black-ops-3 .archive-header .archive-header-image img, body.category-infinite-warfare .archive-header .archive-header-image img {
+  max-width: 100%;
+}
+
 .grid .featured-content .entry-header {
   height: auto;
   min-height: 75px;
